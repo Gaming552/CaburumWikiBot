@@ -1,0 +1,39 @@
+{
+  "ping": {
+    "description": "Gets bot latency"
+  },
+  "backlink": {
+    "description": "Gets a list of pages which link to a page",
+    "usage": "<page>"
+  },
+  "block": {
+    "description": "Blocks a user from the wiki",
+    "usage": "-u \"<user>\" -d \"<duration>\" -r \"reason>\""
+  },
+  "delete": {
+    "description": "Deletes a page from the wiki",
+    "usage": "<page> [reason]"
+  },
+  "getconfig": {
+    "description": "Gets a value from config.json",
+    "usage": "<name>"
+  },
+  "setconfig": {
+    "description": "Sets a value in config.json and reloads",
+    "usage": "<name> <value>"
+  },
+  "categorize": {
+    "description": "Adds a category to each page on the wiki",
+    "usage": "<category>\n<pages>",
+    "info": "Each page goes on it's own line"
+  },
+  "protect": {
+    "description": "Protects a page on the wiki",
+    "usage": "<page> <edit protection> [reason] [move protection]",
+    "info": "Move protection will be the same as edit protection unless it is specified \nCommon protection values are `all`, `autoconfirmed`, and `sysop`"
+  },
+  "help": {
+    "description": "Retrieves usage and bot information",
+    "usage": "[command]"
+  }
+}
